@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Resume } from '../models/Resume';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web-app';
+  resume: Resume = new Resume;
 }

@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="head">
+        <h1>Резюме</h1>
+        <h3>{{ resume.fullName }}</h3>
+    </div>
+    <table >
+        <tr >
+            <td class="left-column">{{ resume.personalData[0] }}</td>        
+            <td class="right-column">{{ resume.personalData[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.contacts[0] }}</td>        
+            <td class="right-column">{{ resume.contacts[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.target[0] }}</td>        
+            <td class="right-column">{{ resume.target[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.education[0] }}</td>        
+            <td class="right-column">{{ resume.education[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.experience[0] }}</td>        
+            <td class="right-column">{{ resume.experience[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.skills[0] }}</td>        
+            <td class="right-column">{{ resume.skills[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.subSkills[0] }}</td>        
+            <td class="right-column">{{ resume.subSkills[1] }}</td>
+        </tr>
+        <tr >
+            <td class="left-column">{{ resume.personalQualities[0] }}</td>        
+            <td class="right-column">{{ resume.personalQualities[1] }}</td>
+        </tr>
+    </table>
+    <div class="footer">{{ resume.createData }}</div>
+</div>
